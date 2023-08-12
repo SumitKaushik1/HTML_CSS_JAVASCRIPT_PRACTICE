@@ -1,0 +1,76 @@
+.main-container{
+		             border: 0px solid black;
+						height: 142%;
+						width: 100%;
+						display: flex;
+						flex-direction: column;
+						gap: 4px;
+						align-items: center;
+			
+		}
+		
+		.outer-container{
+		
+		
+		    border: 0px solid black;
+			height: 50%;
+			width: 83%;
+			display: flex;
+			flex-direction: row;/*for inside cells*/
+			gap: 35px;
+			justify-content: center;
+		   }
+	
+		
+		
+		.inner-container{
+		            border: 0px solid black;
+					height: 99%;
+					width: 22%;
+					
+					
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					flex-wrap: wrap;
+					align-content: center;
+		
+		        }
+		
+		
+		
+
+					.field {
+						    height: 65vh;
+							width: 9vw;
+							box-shadow: 9px 8px 15px -2px #61637e;
+					}
+					
+					
+					.image {
+						        border: 0px solid black;
+								height: 22vh;
+								width: 13vw;
+				         }
+					
+					
+					.btn{
+					
+					 background-color: grey;
+					color: white;
+					height: 7vh;
+					width: 12vw;
+					border: 1px solid grey;
+					
+					}
+					
+					.button-box{
+					
+					 border: 0px solid black;
+					text-align: center;
+					height: 16vh;
+					  /*or padding*/
+					
+					}
+		
+		

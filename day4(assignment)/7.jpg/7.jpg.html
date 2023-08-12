@@ -1,0 +1,229 @@
+<html>
+     <head>
+	      <title>Register</title>
+		
+		  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Pacifico&display=swap" rel="stylesheet">
+
+		  <style>
+		           body{
+				   
+				      background-color: rgba(42 ,53 ,64,0.9);<!--for the transparency 0.9-->
+				   
+				   }
+				   
+				   
+				   .main-container{
+				   
+				   border:0px solid black;
+				   height:96vh;
+				   width:99vw;
+				   display:flex;
+				   flex-direction:column;
+				   justify-content:center;/*in the flex-direction*/
+				   /*if below  align-self:center;is not written then align-items:center we have to write*/
+				   align-items: center;
+				   }
+				   
+				   
+				   .outer-container{
+				   
+				        border: 0px solid black;
+						height: 75vh;
+					    width: 30vw;
+						align-self: center;
+					  
+					  /*90 degree to flex direction only for one particular cell*/
+					  
+				   
+				   
+				   }
+				   
+				   
+				
+				   
+				    .register1{
+				                border: 0px solid black;
+								height: 14.5vh;
+								width: 29.4vw;
+						        color: rgb(135 135 135);
+							
+								font-family: 'Grand Hotel', cursive;
+								font-size: 5rem;
+							    text-align:center;
+						/*or we can use padding only or padding(left,right,...)*/
+						      padding-bottom:2rem;
+						
+				   }
+				   
+				   
+				   .register2{
+				           border:0px solid black;
+						   display:flex;
+						   flex-direction:column;
+						   justify-content:center;
+						   
+						   
+				   
+				   
+				   }
+				   
+				
+				   .box{
+				     
+				        font-weight: 100;
+						background-color: rgb(62 71 80 / 66%);
+						border: 0px solid black;
+						height: 3rem;
+						color: rgb(135 135 135);
+						font-size: larger;
+    
+				   }
+				   
+				   .hr{
+				           width: 30vw;
+                           border: 0.1rem solid rgb(136 148 161 / 65%);
+				   }
+				   
+				  
+				     
+				   
+				   #line{
+				   
+				   color: rgb(135 135 135);
+				   }
+				   
+				   .register2.1{
+				   
+				   border:1px solid black;
+				   
+				   }
+				   
+				    input[type='radio'] {
+									   appearance: auto;
+										width: 12px;
+										height: 13px;
+										border: 0.0rem solid #7e6c6c6b;
+										border-radius: 50%;
+										outline: whitesmoke;
+										box-shadow: 0 0 5px 0px grey inset;
+										background-color: #3e4852;
+								        }
+		            .register3{
+					
+					       border: 0px solid black;
+							height: 11vh;
+							width: 29.9vw;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+						}
+						
+						.btn1{
+						
+						    height: 8vh;
+							width: 30vw;
+							color: white;
+							background-color: #179d5c;
+							border:0px solid #179d5c;
+						
+						}
+						
+						.register4{
+						text-align: center;
+                         border: 0px solid black;
+						 /* or padding*/
+						 height: 3vh;
+						width: 30vw;
+											
+						}
+						
+						.btn2{
+						  background-color: rgb(59 70 80 / 90%);
+						   color:rgb(125 135 145);
+						   border:0px solid black;
+				         
+						}
+						
+						
+						
+		   
+		   </style>
+	 
+	 
+	 
+	 </head>
+	 
+	 <body>
+	 
+	 
+	          	
+				<div class="main-container">	
+                           
+						   
+						   			
+							  
+							  
+							  <form>
+							  <div class="outer-container">
+							  
+													<div class ="register1">
+													
+													
+														Register
+													
+													
+													</div>
+													
+													<div  label for ="place" class=" register2">
+															<input id="place" type="name" placeholder="Username"  class="box"required>
+															<hr class="hr">
+															
+															<input id="place" type="password" placeholder="Password" class="box" required>
+															<hr class="hr">
+															
+															<input id="place" type="email" placeholder="E-Mail Address" class="box" required>
+															<hr  class="hr">
+															<br>
+															
+															 <div class="register2.1">
+															
+															   <input id="place" type="radio" name="rules"  required><span id="line">Accept rules and conditions</span>
+															</div>
+													</div>
+											 
+											 
+													<div class="register3">
+													
+														   <button class="btn1">Register</button>
+													
+													</div>
+							     </div>
+						 </form>  
+						 
+						 
+						 
+						 
+						 
+						 
+						 <form>
+								 <div class="register4">
+									 
+									<button class="btn2"> Already have an account?</button>
+								 
+								</div>
+						 </form>
+								
+						 
+						 
+			   	
+				   
+	       </div>
+		   
+		 
+	 </body>
+
+
+</html>

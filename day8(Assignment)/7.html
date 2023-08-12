@@ -1,0 +1,36 @@
+<html>
+    <head>
+	     <script>
+		     var fruits=[];
+			 var num=prompt("enter the number of fruits you want to add");
+			 for(var i=1;i<=num;i++){
+			 
+			 fruits.push(prompt("enter the fruit name"));
+			 
+			 
+			 
+			 }
+			 
+			 
+			 var html="<table border=1rem>"
+			 for(var i=0;i<num;i++){
+			 
+			 html=html+"<tr>"+"<td>"+fruits[i]+"</td>"+"</tr>";<!--concatination is happening which is declared in the script(javascript) it can be used directly and which is html code(string format) always in double quotes-->
+			 
+			 
+			 }
+			 
+			 
+			 html=html+"</table>";
+			 document.write(html);//html  is the variable(javascript) which contain the html code in the string format 
+		  //document.write will print teh code on the page and browser will understand both javasctipt and html code
+		 
+		 </script>
+	
+	
+	
+	</head>
+     <body>
+	 </body>
+
+</html>

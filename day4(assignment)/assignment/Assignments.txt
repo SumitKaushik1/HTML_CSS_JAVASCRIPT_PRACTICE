@@ -1,0 +1,3 @@
+1.Complete 3.png,5.png 6.png,7.png by CSS.
+2.Create a Nav Bar and link all the above html file
+3.Create a Register page with below Fields: ID,Name,Date of birth, Gender,Lanaguage ,Country.

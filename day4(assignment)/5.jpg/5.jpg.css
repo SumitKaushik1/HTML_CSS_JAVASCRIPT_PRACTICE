@@ -1,0 +1,289 @@
+         body{
+			
+			background-color:#2090c3;
+			}
+			
+			.main-container{
+			
+			    border: 0px solid black;
+				height: 94vh;
+				width: 98vw;
+				/*vh vw on minimize automatically adjusted the border box*/
+				
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+				flex-wrap:wrap;
+				/*to wrap the innner container1 and 2 in the same box it have to use flex wrap for that flex has to apply*/
+			}
+			
+			
+			
+			.inner-container1{
+			
+			                   border: 0px solid black;
+								height: 16vh;
+								width: 97vw;
+								display: flex;
+								flex-direction: column;
+								justify-content:center;
+								align-items: center;
+								flex-wrap: wrap;
+								align-content: center;
+								<!--on minizing which ever comming in next row it also remain in the center-->
+			                    }
+			
+			
+			.heading{
+			            border: 0px solid black;
+						color: white;
+						font-size: 2.1rem;
+						font-family: monospace;
+						padding-bottom: 1rem;
+						
+						flex-wrap:wrap;
+						align-content:center;
+			}
+			
+			
+			
+			.headingexplain{
+			border :0px solid black;
+			color:white;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			flex-wrap:wrap;
+			align-content:center;
+			
+			<!--to wrap inner cells-->
+			}
+			
+			
+			.heading-firstline {
+					border: 0px solid black;
+					padding-bottom: 0.5rem;
+					font-family: monospace;
+                  }
+			
+			
+			
+		     	.heading-secondline {
+		 			border: 0px solid black;
+					font-family: monospace;
+					padding-left: 4.2rem;
+                  }
+				  
+				  
+				  .inner-container2{
+		            border: 0px solid black;
+					height: 76vh;
+					width: 97vw;
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+					flex-wrap: wrap;
+					<!--so that on minimizing content remain in the conatiner1 the elements shift to the next row but still elements in the next row is not in center-->: ;
+					align-content: center;
+					<!--on minizing which ever comming in next row it also remain in the center-->: ;
+                   }				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+			   .inner-box{
+			   
+			           border: 2rem solid #2090c3;
+				
+					   
+					   
+						height: 26rem;
+						border-radius: 3rem;
+						background-color: white;
+						width: 17rem;
+						<!--below for its content-->: ;
+						display: flex;
+						flex-direction:column;
+						
+						
+						
+					    justify-content: center;
+						align-items: center;
+						
+						flex-wrap:wrap;/*--so that on minimizing content remain in the conatiner1 the elements shift to the next row but still elements in the next row is not in center*/
+			           align-content:center;<!--on minizing which ever comming in next row it also remain in the center-->
+	
+	
+						
+						
+					<!--when flex wrap is used then just content doesnot work-->
+				   <!-- flex-wrap: wrap-->
+				   <!--below for its content-->
+				  <!--when flex wrap is used then just content doesnot work-->
+			       <!--flex-wrap:wrap it will wrap to the other line if the elements doenot fit in the box-->
+			       <!--below for its content-->
+				  <!--when flex wrap is used then just content doesnot work-->
+			      <!--flex-wrap:wrap it will wrap to the other line if the elements doenot fit in the box-->
+						
+		}	
+	
+	
+	
+	               
+				
+	
+	
+	
+	
+		
+						
+						
+						
+			   
+			
+					
+						
+					
+						
+						   
+			   	 
+
+
+                .button{
+				
+				    border-radius:1rem;
+					background-color: #2074a5;
+				 	color:white;
+				    height: 2.5rem;
+                    width: 11rem;
+				    border: 1rem solid #2074a5;
+	 			
+				}	
+				
+				
+				
+
+                  .green-tick{
+				        font-size: larger;
+                        font-weight: 800;
+                        color: green;
+				  
+				  }		
+
+                    .green-tick-para{
+					
+					 font-family: system-ui;
+					 font-weight: lighter;
+					 margin-left: 10px;
+					}			  
+				  
+				  .cross-tick{
+				     font-size: larger;
+                     font-weight: 800;
+                     color:#00000075;
+				   
+				  
+				  }
+				  
+				  .cross-tick-para{
+				     font-family: system-ui;
+					 font-weight: lighter;
+					 margin-left: 10px;
+					
+				  
+				  }
+				  
+				  
+				  .symbol{
+				        border: 0rem solid black;
+						height: 8.9rem;
+						width: 13rem;
+						display: flex;
+						flex-direction:column;
+						just-content:center;
+						align-items:center;
+						
+					
+						
+						
+				
+									  
+				  }
+				  
+				  .symbol1{
+				        border: 0rem solid black;
+						height: 0rem;
+						width: 9.6rem;
+						text-align: center;
+						padding: 1.6rem;
+						font-family: monospace;
+						font-size: larger;
+						font-weight: 700;
+												
+				  }
+				  
+				  .symbol2{
+				               border: 0rem solid black;
+								height: 16.9rem;
+								width: 12.8rem;
+								<!--to align inner box to the center-->: ;
+							   flex-direction: column;
+							   justify-content: center;
+							   align-items: center;
+							    display: flex;
+											
+								
+
+				  }
+				  
+				  
+				  
+				  
+				  .para{
+				  
+				       font-size: 1rem;
+                       <!-- child change this only automatically parent font si changed once fixed -->: ;
+                       font-family: system-ui;
+                        }
+				  
+				   .para span{
+				   
+				        font-size: 2em;
+                        font-weight: 700;<!--parent and on parent you can apply anything child is not affected -->
+				    
+				   }
+				  
+			
+			
+			    .symbol3{
+				            border: 0rem solid black;
+							height: 2rem;
+							width: 12.8rem;
+							<!--to align inner box to the center-->: ;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+							display: flex;
+											
+					
+				  }
+				  
+				  .bar{
+				  
+				       border: 0.2rem solid #2074a5;
+						width: 5rem;
+						background: #2074a5;
+						border-radius: 2rem;
+						
+						
+											
+				        } 
+				       
+                  
+				 
+			

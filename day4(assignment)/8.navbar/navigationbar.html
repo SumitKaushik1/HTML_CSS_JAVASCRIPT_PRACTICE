@@ -1,0 +1,152 @@
+<html>
+   <head>
+   
+     <title>Navigation bar</title>
+	 
+	 <style>
+	   
+           body{
+                      background-image: url(backgroundimage.jpg);
+					  background-repeat: no-repeat;
+					  background-size: cover;
+                     
+               }
+
+
+
+                   
+
+
+	 
+	       .main-container{
+		       border: 0px solid black;
+               height: 129vh;
+			   padding: 0.3rem;
+		   
+		     
+		   
+		   
+		   }
+		   
+	      .outer-container1{
+		       border:0px solid black;
+			   height: 15vh;
+			   
+		       display:flex;/*then only flex properties can be used in the child cells */
+			   flex-direction:row;
+		  
+		  }
+		  
+		  .outer-container2{
+		  
+		    border: 0px solid black;
+           height: 113vh;
+		
+		  
+		  
+		  }
+		  
+		  .imagemodify{
+		          height: 15vh;
+                  width: 7vw;
+		     }
+		  
+		  
+		  
+		  .homepage{
+		      border: 0px solid black;
+			  height: 15vh;
+			  width: 7vw;
+		  }
+		  
+		     .tags{
+		            border: 0px solid black;
+					height: 9vh;
+					width: 14vw;
+					text-align: center;
+					padding: 1rem;
+					font-size: x-large;
+					
+					
+					/*become center in upper*/
+					
+               }
+		  
+		  
+		  
+		   .tags1 {
+           flex-grow: 1;
+		   text-align:right;/*become  right in upper*/
+            }
+		  
+		 .anchor a{
+		  
+		   text-decoration:none;
+		  
+		  }
+		  
+		  .iframe{
+		 
+		       border: 0px solid black;
+			 	height: 112vh;
+				width: 96.3vw;
+               box-shadow: 21px 30px 79px 44px blue;
+		  
+		  
+		  }
+
+          .line{
+
+           color:white;
+
+
+           }
+          
+		  
+		 
+	 
+	 </style>
+       
+   </head>
+   
+   
+       <body>
+              
+             <div class="main-container">
+			       <div class="outer-container1">
+				      
+					  <div class=" anchor homepage">
+					       <a href="homepage.html"  target="xyz"><img src="homepage.webp" class="imagemodify" alt="logo"></a>
+					  </div>
+					  
+					   <div class="tags  tags1 anchor">
+			                <a href="3.jpg.html" target="xyz"><span class="line">Log In</span></a>		  
+					  </div>
+					  
+					   <div class="tags anchor">
+					          <a href="5.jpg.html" target="xyz"><span class="line">Pricing table</span></a>		
+					  </div>
+					  
+					   <div class="tags anchor">
+					           <a href="6.jpg.html" target="xyz" ><span class="line">BEM KIT</span></a>
+					  </div>
+				       
+					  <div class="tags anchor">
+					           <a href="7.jpg.html" target="xyz" ><span class="line">Register</span></a>
+					  </div>
+				   
+				   </div>
+				   
+				   <div class="outer-container2">
+				      
+						 	  <iframe src="homepage.html" name="xyz" class="iframe"></iframe>
+				   
+				   </div>
+			    
+			 
+			 </div>
+   
+       </body>
+
+
+</html>

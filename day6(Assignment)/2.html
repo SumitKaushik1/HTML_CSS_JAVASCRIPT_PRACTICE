@@ -1,0 +1,143 @@
+<html>
+	   
+	   <head>
+		  <title>Contact Us</title>
+		  <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+		 rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+		 crossorigin="anonymous">
+		  
+		  <!-- JavaScript Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		  crossorigin="anonymous"></script>
+		  
+		  
+		  <style>
+			 body{
+			  
+			    background-image: linear-gradient(to right,skyblue,#00427e);
+			    <!--ie linarly (uniformly) transition happen from(start from right) skyblue and (end at left) indigo-->
+			    <!-- 0.-->
+			  }
+			  
+			  .dash {
+    		/* border: 0px; */
+    		height: 0.5rem;
+    		width: 5rem;
+    		/* color: blanchedalmond; */
+    		border-radius: 11px;
+    		background-color: #0500f0;
+		}
+			  
+			  .text-content{
+			  
+			  color:white;
+			  
+			  
+			  }
+			  
+			  .contact-block{
+			  
+			     background-color:white;
+				  <!--to change the color of the box inside-->
+			  
+			  }
+			  
+			  
+			  .label{
+			  font-size:0.7rem;
+			  font-weight:bold;
+			  color:grey;
+			  font-family:monopause;
+			  
+			  
+			  }
+			  
+			  .input-box{
+			
+    		border-top: 0px;/*to remove the sidelines of the border*/
+    		border-right: 0px;/*to remove the sidelines of the border*/
+    		border-left: 0px;/*to remove the sidelines of the border*/
+    		padding-left: 0px;/*to shift the sentence left*/
+    		font-size: 0.9rem;
+    		font-weight: bold;
+    		/* color: #b29d9d; */
+			  
+			  }
+			  
+			  
+		  </style>
+	   
+	   </head>
+	   
+	   <body>
+			 <div class="container-fluid /*border border-5*/"><!-- 1.-->
+			    <div class="row /*border border-5*/ align-items-center justify-content-center " style="height:97vh;"><!-- 2. bydefault whole width height iss given align items 90deg to row-->
+				   <!--  border 1->2->3->4 border decreses  in row only you need to specify the border border-5 in column you just need you write border-->
+			                                       <!--align items move inner items in the 90degree ie vertiacal ,justify content move inner items  in the horizonatal -->
+				 <!--bydefault columns height is equla to the browser height-->
+			       <div class="col-4 /*border*/  text-content"><!-- 2.-->
+						   <span class="display-5 fw-bold">Best Wordpress</span><!--3.-->     
+						   <!--fw means font weight bold -->
+						   <span class="display-4 fw-bold">Contact Form</span><!-- 4.-->
+						   <span class="display-5 fw-bold">Plugins</span><!-- 5.-->
+						   <hr class="dash"><!-- 6.-->
+				    </div>
+				              <!--contact -block to change the color of whole box-->
+					<div class="col-6 /*border*/ p-4  contact-block shadow-lg"><!--col6 means 6 columsn combine p 1->2->3 padding increses -->
+					    <div class="container-fluid /*border*/">
+							<div class="row /*border*/"><span class=" h3 fw-bolder mb-5">Contact Us</span></div><!-- h3 highlight ,fw-bolder font-weight row width is equal to the width in which it situated and we can put value in it-->
+							                                              <!--margin bottom from container fluid-->
+							<div class="row /*border*/">
+							                               <!--margin-bottom from its row-->
+								  <div class="col-6 /*border*/ mb-5 "><!--columns formed but nothing in the column-->
+								                            <!--to make the large  shodow of column-->
+									   <label for="name" class="label">Your Name</label>
+									   <input id="name" type="name" placeholder="Enter Your Name" class="form-control input-box"></input>
+									  <!--form control is used to set the size of the input box-->
+								  </div>
+								  
+								  <div class="col-6  /*border*/ mb-5 "><!--margin bottom from its own row-->
+									   <label for="email" class="label">Your Email</label>
+									   <input id="email" input="email" class="form-control input-box" placeholder="Enter Your Email"></input>
+								  </div>
+								  <!--note according to the content in the column height and width is maintained-->
+										  
+							
+							</div>                    
+							
+							<div class="row /*border*/"></div>
+							  <div class="col-12 mb-5"><!-- margin-bottom -from its own row-->
+							      <label for="textarea" class="label">Your Message</label>
+							      <textarea id="textarea" rows="3" class="form-control input-box" placeholder="Your Text Here"></textarea> 
+                                   <!--rows=3 is html code is used to increase the height and for the width we use col=1,2,3,4...-->							 
+                                   <!--form-control to set the bydefault size of box-->							
+							</div>
+							
+							<!--note the height and width of the rows and columns in the bootstrap  is changed according to the content inside it -->
+							<div class="row /*border*/">
+							     <div class="mb-5" ><!--margin bottom from its row-->
+							      <button class="btn btn-primary rounded-pill shadow">Submit</button>
+							       <!-- bydefault buttons zie is the row size in width btn btn-primary` blue in colour and rectangle  inner white colour font-->
+							      <!--roubnded pill means round border-->
+								 </div>
+							</div>
+							
+							
+							
+							
+							
+						</div>
+						
+					
+					</div>
+					
+				 
+			     </div>
+	      
+	       </div>
+	   </body>
+
+
+</html>

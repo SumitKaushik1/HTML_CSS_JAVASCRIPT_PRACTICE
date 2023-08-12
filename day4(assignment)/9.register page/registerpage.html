@@ -1,0 +1,246 @@
+<html>
+
+	  <head>
+			  <title>Register Page</title>  
+			       
+						<link rel="preconnect" href="https://fonts.googleapis.com">
+						<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+						<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Pacifico&display=swap" rel="stylesheet">
+			  
+				  <style>
+				 body{
+				   
+				      background-color: rgba(42 ,53 ,64,0.9);<!--for the transparency 0.9-->
+				   
+				   }
+				   
+				   
+				   .main-container{
+				   
+				   border:0px solid black;
+				   height:96vh;
+				   width:99vw;
+				   display:flex;
+				   flex-direction:column;
+				   justify-content:center;/*in the flex-direction*/
+				   /*if below  align-self:center;is not written then align-items:center we have to write*/
+				   align-items: center;
+				   }
+				   
+				   
+				   .outer-container{
+				   
+				        border: 0px solid black;
+						height: 83vh;
+					    width: 30vw;
+						align-self: center;
+					  
+					  /*90 degree to flex direction only for one particular cell*/
+					   padding-bottom:1rem;
+				   
+				   
+				   }
+				    
+					   
+					   
+					   
+					      .register1{
+				                border: 0px solid black;
+								height: 14.5vh;
+								width: 29.4vw;
+						        color: rgb(135 135 135);
+							
+								font-family: 'Grand Hotel', cursive;
+								font-size: 5rem;
+							    text-align:center;
+						/*or we can use padding only or padding(left,right,...)*/
+						      padding-bottom:2rem;
+						
+				   }
+				   
+				   .btn2{
+						  background-color: rgb(59 70 80 / 90%);
+						   color:rgb(125 135 145);
+						   border:0px solid black;
+				         
+						}
+						
+						 .register3{
+					
+					       border: 0px solid black;
+							height: 11vh;
+							width: 29.9vw;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+						}
+				   	.btn1{
+						
+						    height: 8vh;
+							width: 30vw;
+							color: white;
+							background-color: #179d5c;
+							border:0px solid #179d5c;
+						
+						}
+						
+						 .line{
+				   
+				        color: rgb(135 135 135);
+				      }
+						   
+				   .hr{
+				           width: 30vw;
+                           border: 0.1rem solid rgb(136 148 161 / 65%);
+				   }
+				   
+				  
+				  
+				   .box{
+				     
+				            font-weight: 100;
+							background-color: rgb(62 71 80 / 66%);
+							border: 0px solid black;
+							height: 3rem;
+							color: rgb(135 135 135);
+							font-size: larger;
+							width: 25rem;
+    
+				   }
+				   
+				   .check-box11{
+				      border:0px solid black;
+				   
+				   
+				   }
+				 
+				 .inner-conatiner{
+				   border:0px solid black;
+				   display:flex;
+				   flex-direction:column;
+				   gap:0.1rem;
+				 }
+				 
+				 .check-box{
+				 
+				  border:0px solid black;
+				 
+				 }
+				   .box1{
+				     
+				        font-weight: 100;
+						background-color: rgb(62 71 80 / 66%);
+						border: 0px solid black;
+						 height: 1.5rem;
+						color: rgb(135 135 135);
+						font-size: larger;
+    
+				   }
+				  
+				  
+				  </style>
+		  </head>
+
+			 <body>
+				  
+			    
+				<div class="main-container">	
+				    <form>
+			             <div class="outer-container">
+						 
+						           	    <div class ="register1">
+													
+												Register	
+														
+										</div>		
+                                        <div  label for ="place" class=" register2">
+															<input id="place" type="text" placeholder="ID"  class="box"required>
+															<hr class="hr">
+															
+															<input id="place" type="name" placeholder="Name" class="box" required>
+															<hr class="hr">
+															
+															<div class="inner-conatiner">
+																	<div class=" checkbox check-box1">
+																	     
+																		 <span class="line">Date of Birth:</span><input id="place" type="date" class="box1" required  style=" border:0.1rem solid rgb(135 135 135); padding-left:1rem;margin-left: 10rem;">
+																		 <hr class="hr"> <!--margin left is according to the check box  b/w input is inside the checkbox-->
+																	</div>
+																	
+																	
+																	<div class="check-box">
+																	    <span class="box1">Gender:</span>
+																		<select  class="box1" style=" border:0.1rem solid rgb(135 135 135); padding-left:1rem;margin-left: 11.4rem;width: 9.2rem;">
+																				<option selected >-------</option>
+																				<option style="background-color:white;">Male</option>
+																				<option style="background-color:white;">Female</option>
+																		
+																		</select>
+																		<hr class="hr"><!--margin left is according to the check box  b/w input is inside the checkbox-->
+															        </div>
+																	
+																	<div class="check-box">
+																	    <span class="box1">Language:</span>
+																		<select  class="box1" style=" border:0.1rem solid rgb(135 135 135); padding-left:1rem;margin-left: 10.2rem;width: 9.2rem;">
+																				<option selected >-------</option>
+																				<option style="background-color:white;">Hindi</option>
+																				<option style="background-color:white;">English</option>
+																		
+																		</select>
+																		<hr class="hr"><!--margin left is according to the check box  b/w input is inside the checkbox-->
+															        </div>
+																	
+																		<div class="check-box">
+																	    <span class="box1">Country:</span>
+																		<select  class="box1" style=" border:0.1rem solid rgb(135 135 135); padding-left:1rem;margin-left: 11rem;width: 9.1rem;">
+																				<option selected >-------</option>
+																				<option style="background-color:white;">India</option>
+																				<option style="background-color:white;">Pakistan</option>
+																		
+																		</select>
+																		<hr class="hr"><!--margin left is according to the check box  b/w input is inside the checkbox-->
+															        </div>
+																	
+														    </div>
+															
+															
+															
+															 <div class="register2.1">
+															
+															   <input id="place" type="radio" name="rules"  required><span class="line">Accept rules and conditions</span>
+															</div>
+													</div>
+											 
+
+										
+										
+                                        <div class="register3">
+													
+														   <button class="btn1">Register</button>
+													
+										</div>										
+									
+						 
+						 
+						 </div>
+			 
+			       </form>
+			      
+				   <form>
+							 <div class="register4">
+								 
+								<button class="btn2"> Already have an account?</button>
+							 
+							</div>
+			      </form>
+								
+						 
+				  
+				</div>
+			 
+			 </body>
+
+
+
+
+</html>

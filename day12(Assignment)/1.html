@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <title> even numbers between 1 to 20</title>
+	   
+	   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+	   crossorigin="anonymous"></script>
+	   <!--jquery link-->
+	   
+	   <script>
+	   
+	       
+			
+		   <!--rendered at the last of the page -->
+		   <!--anonymous function b/z it has no name-->
+		   $(document).ready(function(){
+		   
+		      $("#tabl").click( function(){
+			  
+			  var num=parseFloat($("#table-number").val());
+			  var range=parseFloat($("#table-range").val());
+			  var html="";
+			  
+			  
+			  for(var i=1;i<=range;i++){
+		 
+		        html+="<li>"+num+"*"+i+"="+i*num+"</li>";
+		 
+		     
+		      }
+	          
+			  $("#list").html(html);
+			  
+			  
+			  })
+		     
+		   
+		   
+             $("#reset").click(function(){
+			 
+			    
+			  $("#table-number").val("");
+			  $("#table-range").val("");
+			  $("#list").html("");
+			 
+			 
+			 
+			 })
+		   
+		   
+		   
+		   
+		   })
+		 
+	   </script>
+	 
+	 
+	 </head>
+    
+	 <body>
+	    
+	      <input id="table-number" type="text" placeholder="enter the  number">
+	      <input id="table-range" type="text" placeholder="enter  the  range">
+		  <button id="tabl">TABLE</button>
+          <button id="reset">CLEAR</button>  		  
+		  
+	      
+		  <br>
+		  
+		  <ul id="list">
+		  
+		  </ul>
+	 </body>
+
+
+</html>
+		
+		   
+		   
+		   
+		   
+
+
+
+
+
+
+
+			 
+		   
+		   
+		   
+		   
+		   
+		

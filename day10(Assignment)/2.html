@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+   
+   		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		
+		 <head>
+         <title>Movie Details</title>
+  
+		<style>
+			 body{
+			   
+			  background-color: #590000;
+			 
+			 }
+			 .text-color{
+			 
+			   color:red;
+			 
+			 }
+		 
+		
+		  
+		
+		</style>
+	
+		 <script>
+			 
+				     var movie=[];
+			 
+				     function save(){
+					 
+					 var id=document.getElementById("Id").value;
+					 var name=document.getElementById("name").value;
+					 var actor=document.getElementById("actors").value;
+					 var genre=document.getElementById("genre").value;
+					   
+					 var release_date=document.getElementById("release-date").value; <!--in id hypen is okay but in variable underscore is okay-->
+					 
+					 
+					 var temp={
+					 
+					   id1:id,
+					   name1:name,
+					   actor1:actor,
+					   genre1:genre,
+					   release1:release_date 
+					 
+					 
+					 
+					 }
+					 
+					 movie.push(temp);
+					 reset();
+				 
+	        }
+			
+			    function reset(){
+						 document.getElementById("Id").value="";
+						 document.getElementById("name").value="";
+						 document.getElementById("actors").value="";
+						 document.getElementById("genre").value="";
+						 document.getElementById("release-date").value="";
+				
+				}
+						   
+				 
+				
+			
+			
+			
+			function fetch_Movie(){
+			   var html="";
+			   
+			   for(var i=0;i<movie.length;i++){
+			   
+			   html+="<tr><td>"+movie[i].id1+"</td><td>"+movie[i].name1+"</td><td>"+movie[i].actor1+"</td><td>"+movie[i].genre1+"</td><td>"+movie[i].release1+"</td></tr>";
+			   
+			   }
+			
+			  document.getElementById("body-inside").innerHTML=html;
+			
+			}
+			  
+		 
+		 
+		 </script>
+	
+	
+	
+   
+   
+   </head>
+    <body>
+	
+	    <div class="container-fluid /*border border-primary*/ py-4 ">
+		    <div class="/*border border-secondary*/ text-center fs-1">
+			<p style="color:red;">Movie Info</p>
+		    </div>
+		        <div class="row /*border border-warning*/ justify-content-center align-items-center p-5  bg-light mx-5 my-5"><!-- this row is made then only column can be there -->
+							
+							
+										  
+											   <div  class="col-4 /*border border-warning*/ bg-light shadow"><!--in this all contents are there-->
+													 
+													 
+													 <div class="mb-2">
+													 
+													  
+														 <label for="Id" class="text-color">Id</label>
+														 <input  type="text" id="Id" class="form-control" placeholder="enter the id"></input>
+														
+													 </div>
+													 
+													 
+													 
+													  <div class="mb-2" >
+														 
+														 <label for="name" class="text-color">Name</label>
+														 <input  type="text" id="name" class="form-control" placeholder="enter the name"></input>
+													  
+													  
+													  </div>
+													  
+													  
+													 
+													   <div class="mb-2">
+															  
+														 <label for="actors" class="text-color">Actor</label>
+														 <input  type="text" id="actors" class="form-control" placeholder="enter the actor"></input>
+													   
+													   </div>
+													   
+													   
+													
+													
+														 <div class="mb-2">
+														 
+																<label for="genre" class="text-color">Genre</label>
+																<input  type="text" id="genre" class="form-control" placeholder="enter the Genre"></input>
+														 
+														 </div>
+														 
+														 
+														 
+														  <div class="mb-2">
+														                    <!--in id hypen is okay but in variable underscore is okay-->
+																 <label for="release-date" class="text-color">Release Date</label>
+																<input  type="Date" id="release-date" class="form-control"></input>
+														  
+														  
+														  </div>
+														  
+											               <div class=" mb-2 text-center">
+														   
+														         <button class="btn btn-primary" onclick="save()">save</button>
+														   
+														   
+														   </div>
+											 
+											 
+													 
+												
+											   
+										  
+										  </div>
+								 
+								 
+								
+							
+									
+								 <div class="col-4 /*border border-warning*/ bg-light shadow">
+									 <div class=" /*border border-dark*/ text-center">
+										
+										   <button class="btn btn-primary"  onclick="fetch_Movie()">Fetch Movie</button>											
+									   
+									 </div>
+									 
+									 <table class="table table-striped table-hover /*border border-secondary*/">
+										  
+										  <thead>
+										    <tr>
+												   <th>Id</th>
+												   <th>Name</th>
+												   <th>Actor</th>
+												   <th>Genre</th>
+												   <th>Release Date</th>
+										     </tr>
+										   </thead>
+										   
+										   <tbody id="body-inside">
+										   </tbody>
+											   
+										   
+										 
+									 
+									 
+									 
+									 
+									</table>
+								
+								
+								
+								
+								
+								
+								</div>									
+									
+									
+									
+												
+												
+												
+												
+												
+												
+						
+						</div>
+				
+				
+				
+				
+				</div>
+			
+	
+	     
+	
+	
+	</body>
+   
+   
+   
+   
+</html>

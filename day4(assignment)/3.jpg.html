@@ -1,0 +1,146 @@
+<html>
+     <head>
+	      <style>
+		  
+		          body{
+				      background-color:#61bd61;
+				  
+				  }
+		  
+		  
+		          .main-container {
+					border: 0px solid black;
+					height: 95vh;/*bydefault width is 100% if not given*/
+					display: flex;
+					
+					/*flex-direction:column,if you do not provide the column then it is  by default flex direction is row*/
+				  
+
+   				  justify-content:center;      /* center in the direction of flex*/
+				  align-items: center;          /*90degree to justify content*/
+               }		  
+		  
+		            .login-box {
+						        border: 1px solid black;
+								height: 21em;
+								width: 28em;
+								padding: 3em;
+								background-color: white;
+								box-shadow: 4px 5px 44px 0px black;			
+													
+						/*login box maintain the padding 3pix even if the contents size change b/z its measurement used is rem*/
+					}
+					
+					
+					
+					.box{
+					
+					     margin-bottom: 1.5em;/* rem measn once adjusted then it is changed according tto the contents changed ie here the distance from the bottom div block.*/
+					
+					
+					}
+					
+					.input-box{
+					
+							        font-size: 1.4rem;
+									height: 5rem;
+									width: 27.7rem;
+									background-color: whitesmoke;
+									border: 1px solid gainsboro;
+									padding-left: 2rem;
+									font-family: none;				
+						  
+						   /*to change the height and width of the input-box*/
+						    /*to change the font size of placeholder*/	
+					}
+					
+					.button1features{
+					
+						            font-size: 1em;
+									height: 4em;
+									width: 28.0em;
+									border: 0px;
+									background-color: #29a129;
+									color: white;
+					}
+					
+					
+					#firstline{
+						  color: rgb(190,190,173);
+                          font-size: 1.5em;
+					   
+		   
+		                }
+						
+					
+					#secondline{
+						        border: 0px solid black;
+                                color: rgb(70,173,100);
+                                font-size: 1.5em;
+								background-color:white;
+		                   }
+						   
+						   .box3{
+						        display: flex;
+								flex-direction: row;
+								justify-content: center;				
+						    }
+						   
+						  
+						   
+		      
+		  </style>
+	 
+	 
+	 </head>
+	 
+	 <body>
+	      <form>
+	        <div class="main-container">
+			      <div class="login-box">
+			            <div class="box">
+						      
+							  <input  type="name" placeholder="Username" class="input-box ">
+							  
+						</div>  
+						
+						 <div class="box">
+						 
+						       <input type="password" placeholder="password" class="input-box">
+							   
+						</div>  
+						
+						
+						
+						 <div class="box">
+						 
+						       <button  class="button1features">Login</button>
+						
+						</div>  
+						
+						 <div class="box box3" >
+						         <div class="internal-box3">
+						             <span id="firstline"> Not registered?</span><button id="secondline">Create an account</button>
+						         </div>
+						</div>  
+				  
+				  </div>
+			</div>
+	 
+	      
+	 </form>
+	 </body>
+	 
+
+
+</html>
+							  
+							
+		   
+		   
+						
+						
+					
+					
+					
+					

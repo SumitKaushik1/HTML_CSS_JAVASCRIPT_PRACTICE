@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head> 
+	    <title>number print</title>
+	  
+	    <script>
+		     var string="1,2,3,4,5,6,7,8,9";
+			 document.write(string.split(",").join("")+"<br>");
+			 
+			 
+			 
+			 
+			 var arr=string.split(",");
+			 for(var i=0;i<arr.length;i++){
+			    if((parseInt(arr[i])%2)==0)
+				   document.write(arr[i]+"<br>");
+			 }
+			 
+			 
+			 
+			 
+			 
+			 var one="";
+			 var five="";
+			 
+			 var two="";
+			 var eight="";
+			  
+			 for(var i=0;i<arr.length;i++){
+			       
+				   if((parseInt(arr[i]))==1)
+				        one=i;
+				   
+				   if((parseInt(arr[i]))==5)
+				        five=i;
+						
+                   if((parseInt(arr[i]))==2)
+				        two=i;
+				   
+				   if((parseInt(arr[i]))==8)
+				        eight=i;
+						 					
+			 }
+					
+			  document.write("<br>"+"addition of 1 and 5"+"<br>"+(parseInt(arr[one])+parseInt(arr[five])));
+	          
+			  
+			  document.write("<br>"+"addition of 2 and 8"+"<br>"+(parseInt(arr[two])*parseInt(arr[eight])));
+			  
+			 
+			 
+			 
+		
+		
+	    </script>
+	   
+	 </head>
+	 <body>
+	 </body>
+  
+
+</html>

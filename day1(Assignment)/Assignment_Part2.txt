@@ -1,0 +1,1 @@
+1.Create a web page that shows the star name,star image, description on whole page.Show multiple star details.Get details from internet.Choose background color by yourself.

@@ -1,0 +1,115 @@
+<html>
+     <head>
+	 
+	      <title>pallindrome,fibbonacci,duplicate remove,addition of numbers</title>
+	 
+	 </head>
+	 
+	  <script>
+	  
+	        var num=prompt("enter the number of elements for fibbonacci series");
+			       var numterm=0;
+				   document.write("fibbonacci series:");
+				   if(num==1)
+				       document.write("0");
+				   else if(num==2)
+				       document.write("0 1");
+                   else
+                       {
+					   
+					    document.write("0 1");
+						var count=2;
+						var term1=0;
+						var term2=1;
+						    while(count!=num)
+							  {
+							       nextterm=term1+term2;
+								   document.write(" "+nextterm);
+								   document.write("<br>")
+							       term1=term2;
+								   term2=nextterm;
+								   count++;
+							  
+							  
+							  
+							  }
+						
+					           
+					   
+					   }			
+
+
+                    
+					
+					
+					
+					
+					
+							 
+				   var string=prompt("Enter the string for the checking it is pallindrome");
+				
+				   if(string.split("").reverse().join("")==string)
+					   document.write("<br>"+string+" is a pallindrome");
+					else
+					   document.write("<br>"+string+" is not a pallindrome");
+					   
+					
+                    
+					
+					
+					
+					
+					
+					
+					
+					
+					var string1=prompt("Enter the paragraph and to remove dublicate words in it");
+					var arr1=string1.split(" ");
+					for(var i=0;i<arr1.length;i++)
+					    for(var j=(i+1);j<arr1.length;j++)
+						        if(arr1[i]==arr1[j])
+								   arr1[j]="remove";
+			        var arr_store=[];		    
+					for(var i=0;i<arr1.length;i++)
+                         if(arr1[i]!="remove")
+                             arr_store.push(arr1[i]);						 
+				    document.write("<br>"+arr_store.join(" "));
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+				   var string2=prompt("Enter the comma seperated numbers");
+				   var arr2=string2.split(",");
+				  // document.write(arr2.join(" "));
+				  var sum=0;
+				  for(var i=0;i<arr2.length;i++){
+					sum+=parseInt(arr2[i]);
+				  }				  
+				  document.write("<br>"+"sum of the numbers:"+sum) 
+				   
+	  </script>
+	 
+	 <body>
+	 </body>
+	 
+
+
+
+</html>
+			
+					
+											
+									   
+							   
+							    
+					
+					
+					   
+							   
+			
+	  

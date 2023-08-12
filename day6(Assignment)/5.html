@@ -1,0 +1,307 @@
+<html>
+     <head>
+	   <title> Pricing table</title>
+	   
+	     <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+		 rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+		 crossorigin="anonymous">
+		  
+		  <!-- JavaScript Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		  crossorigin="anonymous"></script>
+		  
+		  
+		  
+		  
+		  <style>
+		     body{
+			 
+			background-color:#2090c3;
+			 
+			 }
+			 
+			 .text-block{
+			 
+			    color:white;
+				<!--to make the font inside the column white-->
+			 
+			 }
+			 
+			 .plan-block{
+			    border:0px solid black;
+				background-color:white;
+				border-radius: 1rem;
+			 
+			 }
+			 
+			 .dash{
+			    border: 0px solid blue;
+				border-radius: 25rem;
+				height: 0.5rem;
+				width: 5rem;
+				background-color: blue;
+			    opacity:1;
+			 }
+		  
+                  .green-tick{
+				        font-size: larger;
+                        font-weight: 800;
+                        color: green;
+				  
+				  }		
+
+                    .green-tick-para{
+					
+					 font-family: system-ui;
+					 font-weight: lighter;
+				
+					}			  
+				  
+				  .cross-tick{
+				     font-size: larger;
+                     font-weight: 800;
+                     color:#00000075;
+				   
+				  
+				  }
+				  
+				  .cross-tick-para{
+				     font-family: system-ui;
+					 font-weight: lighter;
+					
+					 text-decoration:line-through;
+				  
+				  }
+				  
+				  
+		  
+		  </style>
+	 </head>
+    <body>       
+	 
+	       <div class="container-fluid /*border border-dark*/" ><!--bydefault the container fluid width is equal to the page width no element so closed-->
+		            
+					<!--note row width is bydefualt full container width and height changes according to the content  inside-->
+					<div class="row /*border border-danger*/  gx-4 gy-5"><!--bydefault row width is equal to the conatainer width in which it is located no element so closed-->
+					         <!--gx for x direction gap in left and right direction b/w columns and gy is the gap b/w the columns in the vertical direction  ie top and bottom we write in the  parent tag ie row tag -->
+							  
+							  <!--column width we set like col-4 and height according to the content inside-->
+                             <!-- text-center class it will align all individual paragraph in center so zigzg type paragraph is formed -->							 
+							 <div class="col-12  /*border border-success*/  text-center text-block"><!--text center align the whole line text in center -->
+									<span class="fs-2">Bootstrap Pricing Table</span><!--fs=font size-->
+									<br>
+									Easy create a classy pricing table in Bootstrap 4.
+									<br>
+									Bootstrap snippet by bootstrapious
+							  </div>
+							  
+							  
+							  
+							  
+				       
+							  
+							                                         <!--mx is the   distance from  outer parent bloack from left and right in horizonatl direction it is written in the child  tag-->
+							  
+							  <div class="col-3 /*border border-warning*/  mx-5">
+							       
+								   <div class="plan-block" > <!-- text-center ->it will align all individual paragraph in center so zigzg type paragraph is formed -->
+											<div class="text-center /*border border-danger*/" >
+														<p class="fs-5 fw-bolder ">Basic</p>
+														 <!--fs=font-size ,fw=font bold-->
+														<p>
+														
+																  <span class="fw-bolder fs-2 ">$899</span>
+																  <span class="text-sm ">/month</span>
+														
+														</p>
+											</div>
+											
+											<p>       <!--note hr is not text so it is not aligned in center so margin we have to take -->
+													  <!-- m-auto means margin from all sides according to the browser-->
+													   <span><hr class="dash  m-auto"></span>
+														   <!--<p></p>==>paragroh each line to get space in between-->
+																   <!--margin from right and left =mx-->
+													  <div class=" mx-4 /*border border-primary*/ ">
+													  
+																  <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Lorem ipsum dolor sit amet</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Sed ut perspicatis</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> At vero emos et accusamus</span></p>
+																	 
+																   <p><span class="cross-tick">&#10006</span> <span class="cross-tick-para"> Nam libero tempore</span></p>
+																	 <!--strike tag <s>text</s> to cut or strike the text-->
+																	 
+																   <p><span class="cross-tick">&#10006</span> <span class="cross-tick-para">Sed ul perpiciati</span></p>
+																	 
+																   <p><span class="cross-tick">&#10006</span> <span class="cross-tick-para">Sed ul perspiciatis</span></p>
+														  
+													  
+													  </div>
+													   
+													   
+													  <div class="text-center">
+													                                                    <!--my means from top and bottom margin is 4-->
+													        <button class="btn btn-primary rounded-pill my-4" style="width: 15rem;">Subscribe</button>		
+																 <!-- it gives the blue button with white font rounded pill make round-->
+													  
+													  </div>
+											
+											</p>
+										 
+										 
+										 
+							        </div>
+								   
+							   </div>
+							  
+							 
+
+
+
+
+                           <div class="col-3 /*border border-warning*/  mx-5">
+							       
+								   <div class="plan-block" > <!-- text-center ->it will align all individual paragraph in center so zigzg type paragraph is formed -->
+											<div class="text-center /*border border-danger*/" >
+														<p class="fs-5 fw-bolder ">PRO</p>
+														 <!--fs=font-size ,fw=font bold-->
+														<p>
+														
+																  <span class="fw-bolder fs-2 ">$399</span>
+																  <span class="text-sm ">/month</span>
+														
+														</p>
+											</div>
+											
+											<p>       <!--note hr is not text so it is not aligned in center so margin we have to take -->
+													  <!-- m-auto means margin from all sides according to the browser-->
+													   <span><hr class="dash  m-auto"></span>
+														   <!--<p></p>==>paragroh each line to get space in between-->
+																   <!--margin from right and left =mx-->
+													  <div class=" mx-4 /*border border-primary*/ ">
+													  
+																  <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Lorem ipsum dolor sit amet</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Sed ut perspicatis</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> At vero emos et accusamus</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Nam libero tempore</span></p>
+																	 <!--strike tag <s>text</s> to cut or strike the text-->
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para">Sed ul perpiciati</span></p>
+																	 
+																   <p><span class="cross-tick">&#10006</span> <span class="cross-tick-para">Sed ul perspiciatis</span></p>
+														  
+													  
+													  </div>
+													   
+													   
+													  <div class="text-center">
+													  
+													        <button class="btn btn-primary rounded-pill my-4 " style="width: 15rem;">Subscribe</button>		
+																 <!-- it gives the blue button with white font rounded pill make round-->
+													  
+													  </div>
+											
+											</p>
+										 
+										 
+										 
+							        </div>
+								   
+							   </div>
+							  
+							
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+                           <div class="col-3 /*border border-warning*/ mx-5 ">
+							       
+								   <div class="plan-block" > <!-- text-center ->it will align all individual paragraph in center so zigzg type paragraph is formed -->
+											<div class="text-center /*border border-danger*/" >
+														<p class="fs-5 fw-bolder ">ENTERPRISE</p>
+														 <!--fs=font-size ,fw=font bold-->
+														<p>
+														
+																  <span class="fw-bolder fs-2 ">$899</span>
+																  <span class="text-sm ">/month</span>
+														
+														</p>
+											</div>
+											
+											<p>       <!--note hr is not text so it is not aligned in center so margin we have to take -->
+													  <!-- m-auto means margin from all sides according to the browser-->
+													   <span><hr class="dash  m-auto"></span>
+														   <!--<p></p>==>paragroh each line to get space in between-->
+																   <!--margin from right and left =mx-->
+													  <div class=" mx-4 /*border border-primary*/ ">
+													  
+																  <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Lorem ipsum dolor sit amet</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Sed ut perspicatis</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> At vero emos et accusamus</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para"> Nam libero tempore</span></p>
+																	 <!--strike tag <s>text</s> to cut or strike the text-->
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para">Sed ul perpiciati</span></p>
+																	 
+																   <p><span class="green-tick">&#x2713</span> <span class="green-tick-para">Sed ul perspiciatis</span></p>
+														  
+													  
+													  </div>
+													   
+													   
+													  <div class="text-center">
+													  
+													        <button class="btn btn-primary rounded-pill my-4 " style="width: 15rem;">Subscribe</button>		
+																 <!-- it gives the blue button with white font rounded pill make round-->
+													  
+													  </div>
+											
+											</p>
+										 
+										 
+										 
+							        </div>
+								   
+							   </div>
+							  
+							
+							
+							
+							
+							
+							
+							
+							
+							
+                   </div>
+
+
+
+
+						  
+						  
+						  
+						  
+					
+					</div>
+		    
+		   
+		   </div>
+	
+	
+	</body>
+
+</html>

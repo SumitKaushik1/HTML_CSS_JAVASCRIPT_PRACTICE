@@ -1,0 +1,48 @@
+<html>
+     <head>
+	        <script>
+			       var num=prompt("enter the number of elements");
+			       var numterm=0;
+				   document.write("fibbonacci series:");
+				   if(num==1)
+				       document.write("0");
+				   else if(num==2)
+				       document.write("0 1");
+                   else
+                       {
+					   
+					    document.write("0 1");
+						var count=2;
+						var term1=0;
+						var term2=1;
+						    while(count!=num)
+							  {
+							       nextterm=term1+term2;
+								   document.write(" "+nextterm);
+								   document.write("<br>")
+							       term1=term2;
+								   term2=nextterm;
+								   count++;
+							  
+							  
+							  
+							  }
+						
+					           
+					   
+					   }				   
+			
+			</script>
+	
+	
+	
+	</head>
+	
+	<body>
+	     
+	
+	
+	</body>
+
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html len="en">
+   <head>
+   
+      <title>
+	  
+	          string related work
+	  
+	  </title>
+   
+       <script>
+	       var string=prompt("Enter the paragraph");
+		   var arr=[];
+	       var arr=string.split(" ");
+		   var max_length=0;
+		   var max_string="";
+		   for(var i=0;i<arr.length;i++)
+		      {
+			       var arr1=[];
+				   arr1=arr[i].split("");
+				  
+				  if(arr1.length>max_length)
+				       {
+					      if(arr1[arr1.length-1]==".")
+					           max_length=(arr1.length-1);
+                          else
+                               max_length=(arr1.length);						  
+
+						   max_string=arr[i];
+						 
+						 
+						 }
+
+			  }
+			  
+			document.write("the largest word:"+max_string+"     with letters:"+max_length);
+			
+			
+			
+			  
+			  
+			  
+		   var string=prompt("Enter the paragraph");
+		   var arr=[];
+	       var arr=string.split(" ");
+		   
+		   var html="";
+		   for(var i=0;i<arr.length;i++)
+		      {
+			       var arr1=[];
+				   
+				   arr1=arr[i].split("");
+				   arr1[0]=arr1[0].toUpperCase();
+				   arr[i]=arr1.join("");
+				  
+				
+
+			  }
+			  var string=arr.join(" ");
+			  document.write("<br>"+string);
+			  
+			  
+			
+              
+			  var String3=prompt("enter the string  TO convert to lowecase and uppercase ");
+			  var arr3=[];
+			  var arr3=String3.split("");
+			  var i=0;
+			  var arr4=[];
+			  while(i<arr3.length)
+			  {
+					 if(arr3[i].toLowerCase()==arr3[i])
+						  arr3[i]=arr3[i].toUpperCase();
+						  
+					 else if(arr3[i].toUpperCase()==arr3[i])
+						  arr3[i]=arr3[i].toLowerCase();
+						  
+					 else
+						  arr3[i]=arr3[i];				 
+					  
+				     arr4.push(arr3[i]);
+					 i++;
+			   }
+              
+             var String4=arr4.join("");
+			 document.write("<br>"+String4);
+	   
+       </script>
+   
+   
+   
+   </head>
+   
+    <body>
+    </body>   
+
+
+</html>

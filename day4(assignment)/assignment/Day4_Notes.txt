@@ -1,0 +1,348 @@
+Topics:
+HTML
+CSS(Bootstrap)
+Javascript(Jquery)
+Nodejs(Express)
+React(react-redux)
+
+Resolutions:
+1366 * 768 -> 1366 width and 768 height
+
+HTML:
+->Hyper Text Markup Language
+->Structure of the page
+->Language(Not programming language)(Browser parse it)
+->Its case-insenstive
+->Markup Syntax(Uses tags)
+->Extension must be ".html"
+->Ignores extra white space
+Tag rules:
+->Tag must start with angular bracket <TAGNAME> and ends with 
+</TAGNAME>
+->There are few exceptions that we do not need to close
+
+Attributes : Properties of tag
+->Atrrubute must be written inside starting tag angular bracket
+
+Comments:
+<!-- This can be single line Comment and multi line comment also -->
+
+Tags:
+HTML -> encloses the HTML document
+HEAD -> contains title, meta poperties,linking to extrenal files
+BODY -> contains page content
+P -> Create paragraph
+(height = value -> height of content
+width = value -> width of content
+)
+I -> create italic content
+B -> Bold content
+U -> underline content
+CENTER -> put content at the center of page
+SUB -> Subscript
+SUP -> Superscript
+DEL -> deleted text
+SMALL -> small text
+PRE -> show text as it is in code
+BR -> Line break(no need to close this tag)
+HR -> horizontal line(no need to close this tag)
+LABEL -> Label of input tag
+TEXTAREA -> create a box text box
+(rows=value cols=value maxlength="value" required|readonly|disabled>
+
+
+Heading Tags:
+H1,H2,H3,H4,H5,H6 -> Creates heading h1 is largest and h6 is smallest
+
+List Tags:
+Two types of List:
+1.Ordered List: List with numbers/alphabet/roman numerals
+OL -> Create List
+(type=1|a|A|I|i)
+LI -> List item
+
+2.Unordered List:listing with bullets
+UL -> Create List
+(type = circle|disc|square)
+LI -> List item
+
+Table Tags:
+->Table create rigid structure(Maintain rectagular shape)
+->Used to create layout of page also
+TABLE -> create the table
+TR-> create the row
+TD-> table item/cells
+
+Image Tag:
+IMG -> Include image in the page
+(src = "PATH_TO_IMAGE" height=value width=value)
+
+Input Tags:
+->No need to close input tag
+INPUT ->Use interaction interface(input the data)
+(type = "text|radio|checkbox|email|url|date|number|submit|reset|button|password|tel|file|hidden|range" placeholder="String" name="value" value="value_of_input" required|disabled|readonly|checked accept="mime_type")
+->type=reset create button that empty all input tag fields
+->type=email is for form level validation means when form tries to submit data there it validates
+->required|disable must be used with form tag
+->required must not be used with radio and checkbox and input buttons
+->maxlength attribute is used to set the length 
+->checked attribute must be used with radio and checkbox only
+->accept attribute is used with file type
+
+
+Button Tag:
+BUTTON ->creates the button
+(type = submit|button)
+
+NOte -> radio is used to select single out of many option but checkbox is used to select multiple option out of many option
+
+Form Tag:
+-> Submit the data(from input tags and select tag and textarea) to server
+(action = "url_of_server" method="http_methods")
+->button inside the form will submit data
+--->Two cases
+---->If button tag is used then do not write type attribute or use submit value for type attribute to submit data to server
+---->If input tag is used to create button then type must be submit to submit data to server
+
+
+Select Tag:
+SELECT ->create the dropdown
+OPTION -> item of the dropdown
+(selected ->selects the default value)
+
+Definition/Description List:
+DL ->Create Definition list
+DT -> Definition Item title
+DD -> definition item defintion
+
+
+Anchor Tag:
+A -> create link
+(href = "url" target="_blank|_parent|_self|_top")
+
+Iframe Tag:
+IFRAME -> open other web page in same page
+(src="url" title="string" height=value width=value allowfullscreen)
+
+Multimedia Tags:
+VIDEO->Creates the video UI HTML5 Player
+(height=value width=value poster="Path_to_image" controls|loop|muted|preload|autoplay)
+SOURCE-> Link to the audio/video.No need to close it
+(src="path_to_audio/video" type="mime_type")
+AUDIO -> creates the audio UI HTML5 player
+(controls|loop|autoplay|muted|preload)
+EMBED -> Include audio/video/image(Slow)
+(src="path_to_file" height=value width=value type="mime_type")
+
+
+Few multimedia mime type:
+MP4 -> video/mp4
+OGG -> video/ogg,audio/ogg
+MP3 -> audio/mpeg
+
+Figure Tag:
+FIGURE -> include the image
+FIGCAPTION -> image name
+
+
+Extra tags:
+ADDRESS -> for address
+BLOCKQUOTE -> create quotes
+ABBR -> for abbriviaton
+SUMMARY -> for summary text
+PROGRESS -> craetes progress bar
+(value = integer_value max="integer_value")
+MARQUEEE -> move the text
+(height=value width=value direction=left|right|up|down scrolldelay=value behavior=scroll|slide|alternate bgcolor=colorname loop=times_value)
+
+
+HTML5 features:
+->Events
+->Extra attributes
+->New forms(input tag types)
+->Canvas
+->SVG
+->Multimedia tags
+->Drag and drop features
+->Microdata
+->WebRTC
+->CORS
+->MATHML
+->Websocket
+
+DIV Tag:
+->Group the multiple HTML tags
+->Create a block
+
+_____________________________________________________
+CSS:
+->Cascading Style Sheet
+->Style the HTML
+->Language
+->Use selectors to select the tag and apply the properties
+->We can write style tag anywhere on the page(prefer is HEAD tag)
+
+
+Three ways of using CSS:
+1.Inline CSS: Use style attribute in the tag
+style="font-weight:bolder"
+2.Internal CSS : Use style tag in same document
+3.External CSS:: Use seperate file.File extension must be .css and use Link tag to import it(Prefer Head Tag)
+<link rel="stylesheet" href="file_path">
+
+Priority:
+Inline > Internal > External
+
+
+CSS Syntax:
+selector{
+	property:value;
+	property:value;
+	......
+	/*Comment here */
+}
+
+Selector:
+->It is used to identify the HTML tag
+->We can also use id and class attriutes value to select TAG
+->ID is used to selected a single tag
+#ID_NAME
+->CLASS  is used to selected multiple tag
+.CLASS_NAME
+
+selector1 selector2{} -> selector 2 is inside selector 1 Tag
+e.g:  .class #id{}
+e.g: #id div{}
+selector1,selector2{} ->Apply CSS on both selector
+e.g: a,p{}
+e.g: .xyz,#abc{}
+
+tagname[attribute=value] ->Select by attribute
+e.g: input[type=text]{}
+
+selector:active ->If selector is active or not. Use it with anchor tag
+selector:checked ->if selector is checked.Use this with radio and checkbox
+selector::first-letter ->selects first letter(char) in the selector Tag
+selector::first-line -> selects first line in selector tag
+selector:nth-child(N)-> selects the Nth tag of that selector.
+selector:last-child ->selects the last tag of that selector
+selector:first-child ->selects the first tag of that selector
+
+
+
+
+
+
+
+
+Property List:
+background-color
+background-image
+color
+border
+height
+width
+font-size
+margin-left
+margin-top
+margin-right
+margin-bottom
+margin
+border-radius
+padding
+padding-left
+padding-right
+padding-top
+padding-bottom
+background-image:url("path_to_image")
+list-style-type
+
+
+Colors:
+->Use color name
+->Use color hexcode
+e.g. #12AB45
+->Set color by rgb(RED_VALUE,GREEN_VALUE,BLUE_VALUE).min-value is 0 and max-value is 255
+e.g: rgb(100,200,100)
+->Set color by rgba(RED_VALUE,GREEN_VALUE,BLUE_VALUE,ALPHA_VALUE). alpha-value range 0.0 - 1.0 and it is used to define transparency
+e.g: rgba(100,200,100,0.5)
+->Set color by hsl(HUE_VALUE,SATURATION_VALUE,LIGHTNESS_VALUE). range is 0 to 100%
+
+
+Gradient:
+->Apply gradient on background-image
+->In all gradients we can mix more color in arguments not just START_COLOR and END_COLOR
+->linear-gradient(DIRECTION or ANGLE,START_COLOR,END_COLOR)
+->repeating-linear-gradient(DIRECTION,START_COLOR,END_COLOR)
+DIRECTION or ANGLE:diagonal|to bottom|to top|to left|to right|to left bottom|180deg|90deg|etc.
+->radial-gradient(SHAPE and POSITION at SIZE , START_COLOR,END_COLOR)
+SHAPE: circle|ellipse
+POSITION : closest-side|farthest-side|closest-corner|farthest-corner
+SIZE : in %
+->conic-gradient(POSITION and ANGLE, START_COLOR and ANGLE,END_COLOR and ANGLE)
+POSITION: from 20deg , at 20%. here 20% is location and from is used with deg
+->repeating-radial-gradient(SHAPE and POSITION at SIZE , START_COLOR,END_COLOR)
+->repeating-conic-gradient((POSITION and ANGLE, START_COLOR and ANGLE,END_COLOR and ANGLE))
+
+BOX-SHADOW
+box-shadow : right_direction_value bottom_direction_value blurry_effect_value shadow_expansion_value color;
+
+Box-Model:
+->All tags got the box model
+->CSS uses box-model to control margin border padding and content size
+content -> size of content
+padding -> internal distance from content
+border -> border size
+margin -> outer distance from near by block
+
+Flex:
+->Automatically adjust the position
+->Apply this on outer block flex will automatically adjust innr blocks
+-> display : flex applies the flex. then we can flex properties
+flex-direction : row|column|row-reverse|column-reverse
+justify-content: flex-start|flex-end|center|space-around|space-evenly|space-between
+align-content
+align-items
+flex-wrap:wrap|no-wrap
+flex-grow
+align-self
+gap
+flex-shrink
+
+->It align the content in the direction of flex-direction
+->align-items and align-content works at 90 degree angle of justify-content.
+
+
+Measurement:
+px -> pixel
+vh -> view height(in %)
+vw -> view width(in %)
+em -> relative the parent block font size
+rem -> relative to font size the page
+cm 
+% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
