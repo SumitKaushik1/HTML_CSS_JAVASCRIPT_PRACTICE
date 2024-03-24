@@ -31,6 +31,17 @@
       </div>
 
 
+ -  **day3(Assignment)**
+<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/363367f2-70b7-4574-9a76-7ad5953b2e6b" alt="2" width="300" height="300">
+
+<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/04c4e71e-1302-421e-8452-b8120a183b5d" alt="3" width="300" height="300">
+
+<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/f486cd71-a7e6-46d5-87f0-0773259a8243" alt="Screenshot (37196)" width="300" height="300">
+
+
+
+
+
 
 
 
