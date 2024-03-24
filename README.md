@@ -53,6 +53,7 @@ ________________________________________________________________________________
 <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/c00e9cb3-26c1-4f42-913e-960e0432ca3a" alt="7" width="300" height="300">
 
 
+
 [screen-capture.webm](https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/a0f7e3bb-54aa-4485-b911-ed53001c85df)
 
 
