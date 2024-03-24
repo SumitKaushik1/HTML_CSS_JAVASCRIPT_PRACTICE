@@ -4,12 +4,13 @@
   
    - 1.assignment
   
-      <div style="text-align:center;">
-        <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/ee9479fc-dc89-404d-869e-839c0e6f8edc" alt="Assignment_Part1_page-0001" width="400" height="600">
-        <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/55082475-0edb-4570-9867-1be6d2897e1a" alt="Assignment_Part1_page-0002" width="400" height="600">
-        <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/0c30cc3d-167d-4011-9da2-493350c65fdf" alt="Assignment_Part1_page-0003" width="400" height="600">
-        <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/a0562338-851d-4479-aa6a-192f6213194b" alt="Assignment_Part1_page-0004" width="400" height="600">
-      </div>
+    <div style="text-align:center;">
+    <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/ee9479fc-dc89-404d-869e-839c0e6f8edc" alt="Assignment_Part1_page-0001" width="300" height="450">
+    <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/55082475-0edb-4570-9867-1be6d2897e1a" alt="Assignment_Part1_page-0002" width="300" height="450">
+    <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/0c30cc3d-167d-4011-9da2-493350c65fdf" alt="Assignment_Part1_page-0003" width="300" height="450">
+    <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/a0562338-851d-4479-aa6a-192f6213194b" alt="Assignment_Part1_page-0004" width="300" height="450">
+</div>
+
 
    <br>
    <br>
