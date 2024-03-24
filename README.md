@@ -18,6 +18,7 @@
    - 2.assignment  
      - 1.Create a web page that shows the star name,star image, description on whole page.Show multiple star details.Get details from internet.Choose background color by yourself.
 
+______________________________________________________________________________________________
 
   -  **day2(Assignment)**
 
@@ -29,7 +30,7 @@
         <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/e02a045f-a3cf-4885-b8f8-7c7db78dbda9" alt="Assignments_page-0003" width="200" height="300">
         <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/5f8d4886-9074-4218-9006-5ad941099139" alt="Assignments_page-0004" width="200" height="300">
       </div>
-
+_________________________________________________________________________________________________
 
  -  **day3(Assignment)**
 <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/363367f2-70b7-4574-9a76-7ad5953b2e6b" alt="2" width="300" height="300">
@@ -38,7 +39,10 @@
 
 <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/f486cd71-a7e6-46d5-87f0-0773259a8243" alt="Screenshot (37196)" width="300" height="300">
 
+__________________________________________________________________________________________________
 
+ -  **day4(assignment)**
+   
 
 
 
