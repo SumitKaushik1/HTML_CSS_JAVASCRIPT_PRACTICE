@@ -64,6 +64,11 @@ ________________________________________________________________________________
     <img width="300" alt="1" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/5e0b8688-3cb3-40b3-a5c4-8c1041c67363">
 </div>
 
+_________________________________________________________________________________________________
+- **day6(Assignment)**
+
+<img width="300" alt="2" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/e9ee47d4-c002-4c2a-bd14-e6ebe13b7f1e">
+<img width="300" alt="5" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/47767b6d-9842-4672-98f4-87b557d49706">
 
 
 
