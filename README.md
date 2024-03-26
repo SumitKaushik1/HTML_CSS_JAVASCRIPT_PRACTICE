@@ -58,6 +58,17 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________
 
+- **day5(Assignment)**
+<div style="display: flex;">
+    <img width="300" alt="1" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/050187e3-03bf-4565-895b-1725bb2f2464">
+    <img width="300" alt="1" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/5e0b8688-3cb3-40b3-a5c4-8c1041c67363">
+</div>
+
+
+
+
+
+
 
 
 
