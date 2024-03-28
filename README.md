@@ -102,6 +102,12 @@ ________________________________________________________________________________
              - 3.Write code to print table (Take Number and range from user)
              - If user inputs 2 and range 20 then print table of 2 till 20
              - 4.Write a program to check given string containes "iis" at the end or not.
+_________________________________________________________________________________________________
+
+- **day9(Assignment)**
+  
+  - enter the details in table 
+  - fibbonacci series
 
 
 
