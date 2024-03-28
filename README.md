@@ -44,17 +44,17 @@ ________________________________________________________________________________
 
  -  **day4(assignment)**
    
-<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/7e3b9e3e-7e6e-49eb-8094-afcd4a745cf7" alt="3" width="300" height="300">
+   -
+     [screen-capture.webm](https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/a0f7e3bb-54aa-4485-b911-ed53001c85df)
 
-<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/d15a50f9-4a76-4206-ba62-a1a2e7762e9c" alt="5" width="300" height="300">
+     <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/7e3b9e3e-7e6e-49eb-8094-afcd4a745cf7" alt="3" width="300" height="300">
+  
+       <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/d15a50f9-4a76-4206-ba62-a1a2e7762e9c" alt="5" width="300" height="300">
+  
+       <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/9b262a42-d6b7-41f7-b2e5-fdd8fdb8078c" alt="6" width="300" height="300">
+  
+       <img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/c00e9cb3-26c1-4f42-913e-960e0432ca3a" alt="7" width="300" height="300">
 
-<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/9b262a42-d6b7-41f7-b2e5-fdd8fdb8078c" alt="6" width="300" height="300">
-
-<img src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/c00e9cb3-26c1-4f42-913e-960e0432ca3a" alt="7" width="300" height="300">
-
-
-
-[screen-capture.webm](https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/a0f7e3bb-54aa-4485-b911-ed53001c85df)
 
 _________________________________________________________________________________________________
 
@@ -108,12 +108,15 @@ ________________________________________________________________________________
   
   - enter the details in table 
   - fibbonacci series
+_________________________________________________________________________________________________
 
+- **day10(Assignment)**
+  
+  - number table
 
-
-
-
-
+  - https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/fabaaaf7-9bf6-4778-bc3d-a4cd2556a541
+  - https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/1715b438-3a19-455a-8d51-13baed5185db
+  - https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/6b6d5738-6415-4604-900c-8f1c01630c64
 
 
 
