@@ -70,6 +70,39 @@ ________________________________________________________________________________
 <img width="300" alt="2" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/e9ee47d4-c002-4c2a-bd14-e6ebe13b7f1e">
 <img width="300" alt="5" src="https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/47767b6d-9842-4672-98f4-87b557d49706">
 
+_________________________________________________________________________________________________
+- **day8(Assignment)**
+
+     - 1.Print table on page(Take input from user)
+        Format:
+        2 * 1 = 2
+        2 * 2 = 4
+  
+     - 2.Implement a calculator using if-else ladder
+      (Take two number from prompt and also operator from prompt)
+      
+     - 3.Find the sum of digit of 5 digit number(Take input from user)
+      
+     - 4. Write a program to display Fibonacci series
+     - 5. Create a web page to calculate the compound Interest.
+          p = Principal,
+          r = Rate of Interest,
+          n = period in years
+          The values used in the example in the following figure are as follows:
+          P = 1000, n = 1, r = 10
+            ________________________________________
+
+         - 6.Write a program to check given string ends with "t" or not
+         - 7.Write a code to accept name of fruit from user and show in table
+
+         - Optional:
+         
+             - 1. Write a program to find the sum of squares of even numbers upto N (accept from user).Take N from user
+             - 2.Write a program to print even number from 1 to 20
+             - 3.Write code to print table (Take Number and range from user)
+             - If user inputs 2 and range 20 then print table of 2 till 20
+             - 4.Write a program to check given string containes "iis" at the end or not.
+
 
 
 
