@@ -119,8 +119,16 @@ ________________________________________________________________________________
   - https://github.com/SumitKaushik1/HTML_CSS_JAVASCRIPT_PRACTICE/assets/110432346/6b6d5738-6415-4604-900c-8f1c01630c64
 
 _________________________________________________________________________________________________
-
 - **day11(Assignment)**
+
+  - addition of two numbers
+  - fibbonacci series,pallindrome,sum of numbers,remove dublicacy.
+  - count number of characters in paragraph.
+  - largest word and the characters in it and convert in uppercase
+
+_________________________________________________________________________________________________
+- **day12(Assignment)**
+
   - table formation by giving input
   - calculate -Addition,multiplication,substraction,division
   - enter string ,substring,replace string,Search String in main string, To Upper Case, To Lower Case, Trim spaces, replace
